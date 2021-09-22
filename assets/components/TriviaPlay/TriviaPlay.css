@@ -1,0 +1,39 @@
+.triviaPlay-header {
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    position: fixed;
+    color: yellowgreen;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.triviaPlay-question {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.triviaPlay-answer-input {
+    width: 100%;
+}
+
+.p-card-body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.triviaPlay-button {
+    justify-content: center;
+    text-align: center;
+}
+
+.triviaPlay-correct {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    background-color: #006600;
+}

@@ -1,0 +1,14 @@
+.admin-header-content {
+    display: flex;
+}
+
+.admin-header-title {
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admin-header-menu {
+    float: left;
+}

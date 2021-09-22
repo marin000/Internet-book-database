@@ -1,0 +1,153 @@
+.p-book-detail {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-detail-img {
+    width: 200px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.title {
+font-size: 1.9rem;
+font-weight: 750;
+display: flex;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 450;
+    margin: 0 0 1rem 0;
+}
+
+.author {
+    margin: 0 0 0.5rem 0;
+}
+
+.rating {
+    margin: 0 0 .5rem 0;
+}
+
+.categories{
+    margin: 0 0 0.5rem 0;
+}
+
+.lang-pages {
+    margin: 0 0 0.5rem 0;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: large;
+}
+
+.pdf {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.epub {
+    margin: 0 0 0.5rem 0;
+}
+
+.quote {
+    margin: 0 0 0.5rem 0;
+}
+
+.p-button {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.published {
+    margin: 0 0 1rem 0;
+}
+
+.p-col-12 {
+    margin-top: 2rem;
+}
+
+.carousel-demo .book-item .book-item-content {
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: .3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.carousel-demo .book-item .book-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.p-carousel-header {
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+}
+
+.title-options {
+    display: inline-block;
+}
+
+.title-options-sidebar {
+    display: inline-block;
+}
+
+.sidebar-fav {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.sidebar-forReading {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.sidebar-justReading {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.sidebar-alreadyRead {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.sidebar-rating {
+    margin-top: 1.2rem;
+    display: flex;
+}
+
+.sidebar-review .review-content {
+    display: flex;
+    margin-top: 1.5rem;
+}
+      
+
+@media screen and (max-width: 576px) {
+    .book-detail-img {
+        width: 75%;
+        margin: 2rem 0;
+    }
+
+    .p-col-8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .p-col-12
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}

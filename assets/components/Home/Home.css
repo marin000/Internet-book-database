@@ -1,0 +1,50 @@
+.datascroller-demo .book-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.datascroller-demo .book-author {
+    margin: 0 0 1rem 0;
+}
+
+.datascroller-demo .book-sales {
+    margin: 0 0 1rem 0;
+}
+
+.datascroller-demo .book-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.datascroller-demo .book-item img {
+    width: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-right: 2rem;
+}
+
+.datascroller-demo .book-item .book-detail {
+    flex: 1 1 0;
+}
+
+.p-dataview .p-dataview-header {
+    background-color: #404040;
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 576px) {
+    .datascroller-demo .book-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .datascroller-demo .book-item img {
+        width: 75%;
+        margin: 2rem 0;
+    }
+
+    .datascroller-demo .book-item .book-detail {
+        text-align: center;
+    }
+}

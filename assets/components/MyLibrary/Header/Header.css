@@ -1,0 +1,15 @@
+.p-dataview-header .header-content {
+    display: flex;
+}
+
+.p-dataview-header .header-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-dataview-header .header-menu {
+    float: left;
+}

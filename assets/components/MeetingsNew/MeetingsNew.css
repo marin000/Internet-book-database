@@ -1,0 +1,23 @@
+.form-demo-meeting .card {
+    min-width: 550px;
+}
+
+.form-demo-meeting .card form {
+    margin-top: 2rem;
+}
+
+.form-demo-meeting .card .p-field-meeting {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .form-demo-meeting .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo-meeting .card {
+        width: 100%;
+        min-width: 0;
+    }
+}

@@ -1,0 +1,61 @@
+.form-demo .card {
+    min-width: 450px;
+}
+
+.form-demo .card form {
+    margin-top: 2rem;
+}
+
+.form-demo .card .p-field {
+    margin-bottom: 1.5rem;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.card-start {
+    min-width: 420px;
+    margin-right: 50%;
+}
+
+
+.card-start .field-img {
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.card-start .field-lib {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.button-delete {
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+
+    .card-start {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 60%;
+        min-width: 0;
+    }
+
+    .card-start {
+        width: 50%;
+        min-width: 0;
+    }
+}
+  
+ 
